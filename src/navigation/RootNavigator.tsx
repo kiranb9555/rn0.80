@@ -9,7 +9,7 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 const RootNavigator = () => (
   <Stack.Navigator screenOptions={{ headerShown: false }}>
     <Stack.Screen name="Home" component={BottomTabNavigator} />
-    <Stack.Screen name="Details" component={MovieDetailsScreen} />
+    <Stack.Screen name="MovieDetailsScreen" component={MovieDetailsScreen} />
   </Stack.Navigator>
 );
 

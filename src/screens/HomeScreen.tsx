@@ -43,7 +43,7 @@ const HomeScreen: React.FC = () => {
         renderItem={({ item }) => (
           <TouchableOpacity
             style={styles.gridCard}
-            onPress={() => navigation.navigate('Details', { movieId: item.id })}
+            onPress={() => navigation.getParent()?.navigate('MovieDetailsScreen', { movieId: item.id })}
             activeOpacity={0.85}
           >
             <Image source={{ uri: item.poster }} style={styles.gridPoster} />

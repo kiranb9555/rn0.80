@@ -1,5 +1,5 @@
 export type RootStackParamList = {
   Home: undefined;
-  Details: { movieId: string };
+  MovieDetailsScreen: { movieId: string };
   // Add other routes here as needed
 }; 

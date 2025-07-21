@@ -5,12 +5,12 @@ import { RootState } from '../redux/store';
 import { toggleFavorite } from '../redux/favoritesSlice';
 import { RouteProp, useNavigation } from '@react-navigation/native';
 import { RootStackParamList } from '../types/Navigation';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import MIIcon from 'react-native-vector-icons/MaterialIcons';
 
 const { width } = Dimensions.get('window');
 const POSTER_HEIGHT = width * 1.2;
 
-const MovieDetailsScreen: React.FC<{ route: RouteProp<RootStackParamList, 'Details'> }> = ({ route }) => {
+const MovieDetailsScreen: React.FC<{ route: RouteProp<RootStackParamList, 'MovieDetailsScreen'> }> = ({ route }) => {
   const { movieId } = route.params;
   const movie = useSelector((state: RootState) =>
     state.movies.all.find(m => m.id === movieId)
@@ -26,7 +26,7 @@ const MovieDetailsScreen: React.FC<{ route: RouteProp<RootStackParamList, 'Detai
   return (
     <View style={styles.container}>
       <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
-        <Ionicons name="arrow-back" size={28} color="#fff" />
+        <MIIcon name="arrow-back" size={30} color="#fff" />
       </TouchableOpacity>
       <Image source={{ uri: movie.poster }} style={styles.poster} />
       <View style={styles.infoCard}>
@@ -55,7 +55,7 @@ const MovieDetailsScreen: React.FC<{ route: RouteProp<RootStackParamList, 'Detai
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#181818',
+    backgroundColor: '#111',
     alignItems: 'center',
   },
   backButton: {
@@ -63,9 +63,9 @@ const styles = StyleSheet.create({
     top: 36,
     left: 16,
     zIndex: 3,
-    backgroundColor: '#232323cc',
+    backgroundColor: '#111',
     borderRadius: 18,
-    padding: 6,
+    padding: 10,
   },
   poster: {
     width: width,
