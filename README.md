@@ -62,7 +62,9 @@ A modern React Native app to browse and favorite movies, built with TypeScript, 
 
 ## Screenshots
 
-> Add screenshots of your app here (Home, Details, Favorites, etc.)
+
+<img width="720" height="1640" alt="1000000641" src="https://github.com/user-attachments/assets/731ed3fb-5cda-4d9a-9ff4-9e52fefebe7a" />
+<img width="720" height="1640" alt="1000000642" src="https://github.com/user-attachments/assets/7bbf3b34-efa8-4751-b4e0-97aeb127680d" />
 
 ---
 
