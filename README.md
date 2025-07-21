@@ -14,8 +14,8 @@ A modern React Native app to browse and favorite movies, built with TypeScript, 
 
 1. **Clone the repository:**
    ```sh
-   git clone <your-repo-url>
-   cd <your-repo-folder>
+   git clone git@github.com:kiranb9555/rn0.80.git
+   cd  rn0.80
    ```
 
 2. **Install dependencies:**
@@ -33,6 +33,7 @@ A modern React Native app to browse and favorite movies, built with TypeScript, 
      ```sh
      npm run android
      ```
+      if still not working undo changes and npx react-native-asset
 
 4. **Start Metro bundler:**
    ```sh
