@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "Inception",
+    "poster": "https://image.tmdb.org/t/p/w500/qmDpIHrmpJINaRKAfWQfftjCdyi.jpg",
+    "rating": 8.8,
+    "releaseYear": 2010,
+    "genres": ["Action", "Sci-Fi"],
+    "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+    "releaseDate": "2010-07-16"
+  },
+  {
+    "id": "2",
+    "title": "Interstellar",
+    "poster": "https://image.tmdb.org/t/p/w500/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
+    "rating": 8.6,
+    "releaseYear": 2014,
+    "genres": ["Adventure", "Drama", "Sci-Fi"],
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "releaseDate": "2014-11-07"
+  },
+  {
+    "id": "3",
+    "title": "The Dark Knight",
+    "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "rating": 9.0,
+    "releaseYear": 2008,
+    "genres": ["Action", "Crime", "Drama"],
+    "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+    "releaseDate": "2008-07-18"
+  }
+] 
