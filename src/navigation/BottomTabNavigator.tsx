@@ -3,7 +3,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeScreen from '../screens/HomeScreen';
 import FavoritesScreen from '../screens/FavoritesScreen'; // create a placeholder if not exists
 import ProfileScreen from '../screens/ProfileScreen'; // create a placeholder if not exists
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import Ionicons from 'react-native-vector-icons/Ionicons'
 import { useTheme } from '@react-navigation/native';
 
 const Tab = createBottomTabNavigator();

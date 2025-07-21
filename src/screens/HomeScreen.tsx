@@ -22,7 +22,7 @@ const HomeScreen: React.FC = () => {
   return (
     <View style={styles.container}>
       <View style={styles.topBar}>
-        <Text style={styles.headerTitle}>Trending Now</Text>
+        <Text style={styles.headerTitle}>Popular Now</Text>
         <TouchableOpacity style={styles.avatarWrapper}>
           <Image source={{ uri: 'https://randomuser.me/api/portraits/men/1.jpg' }} style={styles.avatar} />
         </TouchableOpacity>
@@ -80,18 +80,18 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   avatarWrapper: {
-    width: 36,
-    height: 60,
-    borderRadius: 18,
-    overflow: 'hidden',
-    borderWidth: 2,
-    borderColor: '#232323',
+    // width: 36,
+    // height: 60,
+    // borderRadius: 18,
+    // overflow: 'hidden',
+    // borderWidth: 2,
+    // borderColor: '#232323',
   },
   avatar: {
-    width: 36,
+    width: 60,
     height: 60,
-    borderRadius: 18,
-    resizeMode: 'cover',
+    borderRadius: 30,
+    resizeMode: 'center',
   },
   searchBarWrapper: {
     paddingHorizontal: 16,
@@ -121,9 +121,10 @@ const styles = StyleSheet.create({
     elevation: 2,
   },
   gridPoster: {
-    width: '100%',
-    height: '100%',
-    resizeMode: 'cover',
+    width: '95%',
+    height: '95%',
+    resizeMode: 'contain',
+    borderRadius: 16,
   },
   gridOverlay: {
     position: 'absolute',
