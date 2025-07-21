@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import moviesData from '../assets/movies.json';
+import moviesData from '../data/movies';
 import { Movie } from '../types/Movie';
 
 interface MoviesState {
